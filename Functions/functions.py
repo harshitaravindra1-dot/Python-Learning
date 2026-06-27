@@ -7,7 +7,7 @@ def display_name(name):
 def add(x,y):
     return x+y
 
-def area(x,y):
+def calculate_area(x,y):
     return x*y
 
 def student(name,age,course):
@@ -27,7 +27,7 @@ def calculator(m,n,operator):
     
     elif operator == '/':
         if n == 0:
-            return "n cannot be 0"
+            return "division by 0 is not possible"
 
         else:
             return m/n
@@ -43,16 +43,16 @@ display_name(user)
 a = int(input("enter the value of a:\t"))
 b = int(input("enter the value of b:\t"))
 
-sum=add(a,b)
-print(f'sum {a} + {b} : {sum}')
+total=add(a,b)
+print(f'sum {a} + {b} : {total}')
 
-A=area(a,b)
-print(f'area of {a} and {b} : {A}')
+rectangle_area = calculate_area(a,b)
+print(f'area of {a} and {b} : {rectangle_area}')
 
 student(age=21, course="BE", name="Anna")
 
 op=input("enter the operation you want to perform ( + , - , * , / ):\t")
-cal=calculator(a,b,op)
-print(f'the resut of the calculation = {cal}')
+result = calculator(a,b,op)
+print(f'the resut of the calculation = {result}')
 
 
