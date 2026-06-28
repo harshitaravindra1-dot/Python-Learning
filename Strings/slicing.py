@@ -1,0 +1,16 @@
+text = "programming"
+print(text[:7])
+print(text[3:])
+print(text[:3])
+print(text[-4:])
+print(text[::-1])
+print(text[::2])
+print(text[::3])
+print(text[::-2])
+
+user = input("Inter a string with more than 6 charecters :")
+print("First 5 characters :",user[:5])
+print("Last 5 characters :",user[-5:])
+print("Everything except the first character :",user[1:])
+print("Everything except the last character :",user[:-1])
+print("Reverse of the word :",user[::-1])
