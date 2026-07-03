@@ -1,104 +1,162 @@
-# 📄 Dictionary Practice
+# 📚 Python Dictionaries
 
 ## 📖 Overview
 
-This file contains practice problems that helped me strengthen my understanding of Python dictionaries through real-world scenarios. The exercises focus on storing, updating, searching, and processing data efficiently using dictionaries.
+This folder contains my hands-on practice while learning **Python Dictionaries**. Through these programs, I explored how dictionaries store data as **key-value pairs**, how to manipulate them efficiently, and how they can be used to solve real-world programming problems.
 
 ---
 
-# 🎯 Problems Solved
+# 🎯 Learning Objectives
 
-## Problem 1
-- Created a dictionary containing student names and marks.
-- Found the student who scored the highest marks.
+After completing this module, I am able to:
 
----
-
-## Problem 2
-- Took student details as user input.
-- Stored the information in a dictionary.
-- Displayed the completed dictionary.
-
----
-
-## Problem 3
-- Created a product-price dictionary.
-- Accepted a product name from the user.
-- Displayed the product price if available.
-- Printed an appropriate message if the product was not found.
+- Create dictionaries with different types of keys and values.
+- Access, update, and delete dictionary elements.
+- Use built-in dictionary methods.
+- Iterate through dictionaries.
+- Merge dictionaries.
+- Copy dictionaries safely.
+- Solve practical problems using dictionaries.
+- Understand when dictionaries are the best choice of data structure.
 
 ---
 
-## Problem 4
-- Created a dictionary of countries and their capitals.
-- Displayed each country along with its capital.
+# 📂 Files
+
+## 📄 basics.py
+
+Programs demonstrating:
+
+- Creating dictionaries
+- Creating empty dictionaries
+- Accessing values using keys
+- Viewing keys and values
+- Finding the length of a dictionary
+- Modifying existing values
+- Adding new key-value pairs
+- Combining dictionaries
 
 ---
 
-## Problem 5
-- Created two separate dictionaries representing marks from different subjects.
-- Combined both dictionaries into a single dictionary.
+## 📄 methods.py
+
+Practice programs covering:
+
+- Accessing existing and missing keys
+- Displaying keys, values, and key-value pairs
+- Creating independent copies
+- Removing elements
+- Removing the last inserted item
+- Clearing dictionaries
+- Updating dictionary information
+- Merging multiple dictionaries
 
 ---
 
-## Problem 6
-- Counted the number of students who scored more than 80 marks.
+## 📄 practice.py
+
+Implemented solutions for practical problems including:
+
+- Finding the student with the highest marks
+- Taking and storing user information
+- Product price lookup
+- Country-capital mapping
+- Combining subject-wise student records
+- Counting students above a given score
+- Calculating average marks using lists inside dictionaries
+- Counting the frequency of words in a sentence
 
 ---
 
-## Problem 7
-- Stored multiple marks for each student using lists as dictionary values.
-- Calculated and displayed the average marks for every student.
+# 🌟 Key Concepts Learned
 
----
+During this module I learned that:
 
-## Problem 8
-- Accepted a sentence from the user.
-- Counted the frequency of each word.
-- Stored the word frequencies in a dictionary.
+- Dictionaries store data as **key-value pairs**.
+- Every key in a dictionary must be unique.
+- Dictionaries provide very fast lookups using keys.
+- Values can be of any data type, including lists and other dictionaries.
+- Dictionaries are mutable, meaning they can be modified after creation.
 
 ---
 
 # 🛠 Concepts Practiced
 
 - Dictionary creation
-- Accessing values using keys
+- Key-value pairs
+- Accessing values
 - Updating dictionaries
-- Searching for keys
-- Iterating through dictionaries
-- Dictionary views (`keys`, `values`, `items`)
-- Nested data structures (lists inside dictionaries)
-- User input handling
-- Counting frequencies
-- Basic data analysis
+- Dictionary traversal
+- Copying dictionaries
+- Merging dictionaries
+- Searching using keys
+- Frequency counting
+- Nested data structures
+- Problem solving
 
 ---
 
-# 🌟 Key Learnings
+# 🌍 Real-World Applications
 
-After completing these exercises, I learned how to:
-
-- Choose dictionaries for key-value relationships.
-- Store structured information efficiently.
-- Search data quickly using keys.
-- Count occurrences using dictionaries.
-- Combine multiple dictionaries.
-- Process real-world data using dictionary operations.
-
----
-
-# 🚀 Real-World Applications
-
-These concepts are commonly used in:
+Dictionaries are widely used in:
 
 - Student management systems
-- Inventory management
 - Product catalogs
-- Contact lists
-- Word frequency analysis (NLP)
-- Data preprocessing
-- Machine Learning applications
-- Backend API development
+- Contact books
+- Inventory management
+- JSON data
+- REST APIs
+- Configuration files
+- Natural Language Processing (NLP)
+- Machine Learning data preprocessing
+- Caching and fast lookups
+
+---
+
+# 🚀 Skills Gained
+
+Through this module, I improved my ability to:
+
+- Choose dictionaries for key-value relationships.
+- Design efficient data structures.
+- Solve lookup problems quickly.
+- Count frequencies using dictionaries.
+- Organize structured information effectively.
+- Apply dictionaries to practical programming scenarios.
+
+---
+
+# 📂 Repository Structure
+
+```text
+Dictionaries/
+│
+├── basics.py
+├── methods.py
+├── practice.py
+└── README.md
+```
+
+---
+
+# 📈 Progress
+
+Completed Modules:
+
+- ✅ Functions
+- ✅ Strings
+- ✅ Lists
+- ✅ Tuples
+- ✅ Sets
+- ✅ Dictionaries
+
+Upcoming Modules:
+
+- File Handling
+- Exception Handling
+- Object-Oriented Programming (OOP)
+- Modules & Packages
+- Data Structures & Algorithms (DSA)
 
 ---
 
@@ -108,4 +166,4 @@ These concepts are commonly used in:
 
 B.E. Artificial Intelligence & Machine Learning
 
-Building strong programming fundamentals through consistent coding practice and problem-solving.
+Currently building strong programming fundamentals through consistent coding practice, GitHub documentation, problem-solving, and preparing for Data Structures & Algorithms, Artificial Intelligence, and Machine Learning.
