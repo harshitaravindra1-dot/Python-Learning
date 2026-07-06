@@ -1,0 +1,5 @@
+Python is a powerful and beginner-friendly programming language.
+It is widely used in web development, artificial intelligence, and machine learning.
+Python has a simple syntax that makes it easy to learn and write.
+Many developers use Python because of its large collection of libraries.
+Learning Python is a great step toward becoming an AI/ML engineer.

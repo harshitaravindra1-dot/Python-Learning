@@ -31,7 +31,7 @@ with open("File Handling/marks.txt","r") as b:
                 failedCount += 1
     avg = total /no_of_students
     print(f"Highest marks is scored by {topper} : {highest}")
-    print(f"Highest marks is scored by {low_student} : {lowest}")
+    print(f"Lowest marks is scored by {low_student} : {lowest}")
     print("Average marks :",avg)
     print("Number of failed students :",failedCount)
     print("Number of passed students :",passedCount)
@@ -92,3 +92,57 @@ print("Number of words :",wordCount)
 print("average length of words :",avg)
 
 #problem 5
+expensive = 0
+cheap = 100000000000
+total_price =0
+prod_count = 0
+with open("File Handling/product.txt",'r')as prod:
+    prodList = prod.readlines()
+
+    for i in prodList:
+        product = i.split(",")
+        prodName = product[0]
+        price= int(product[1])
+        total_price += price
+        prod_count += 1
+        if price > expensive:
+            expensive = price
+            expensive_prod = prodName
+        if price < cheap:
+            cheap = price
+            cheap_prod = prodName
+
+print(f"Expensive product is {expensive_prod} of {expensive}")
+print(f"Cheap product is {cheap_prod} of {cheap}")
+avg = total_price/prod_count
+print("Average price :",avg)
+
+#problem 6
+with open("File Handling/marks.txt",'r') as stu:
+    marksList = stu.readlines()
+    for i in marksList:
+        stuLine = i.split(",")
+        name = stuLine[0]
+        marks = int(stuLine[1]) 
+        if marks in range(90,101):
+            grade = "A"
+        elif marks in range(80,90):
+            grade = 'B'
+        elif marks in range(70,80):
+            grade = 'C'
+        elif marks in range(60,70):
+            grade = 'D'
+        elif marks in range(0,60):
+            grade = 'F'
+        print(f"Grade of {name} is {grade}")
+
+#problem 7
+with open("File Handling/paragraph.txt","r")as para:
+    
+    with open("File Handling/para3.txt",'w')as para2:
+        contents =para.read()
+        para2.write(contents)
+
+with open("File Handling/para3.txt",'r')as para2:
+    lines = para2.read()
+    print(lines)
