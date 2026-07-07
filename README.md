@@ -1,14 +1,12 @@
 # 🐍 Python Learning Journey
 
-## 📖 About This Repository
+## 📖 About
 
 Welcome to my Python learning repository!
 
-This repository documents my journey of learning Python from the fundamentals to advanced concepts through hands-on coding, problem-solving, and consistent practice.
+This repository documents my journey of learning Python from the fundamentals to advanced topics through consistent coding practice, hands-on exercises, and problem-solving. Every module contains concept explanations, practice programs, and mini challenges that help strengthen my programming skills.
 
-Instead of only reading theory, every topic is supported with programs, exercises, and mini-projects to strengthen my understanding and improve my problem-solving skills.
-
-My goal is to build a strong programming foundation for **Data Structures & Algorithms, Artificial Intelligence, Machine Learning, and Software Engineering.**
+My goal is to build a strong foundation in Python before moving on to Data Structures & Algorithms, Artificial Intelligence, Machine Learning, and Backend Development.
 
 ---
 
@@ -16,10 +14,10 @@ My goal is to build a strong programming foundation for **Data Structures & Algo
 
 - Master Python fundamentals
 - Develop strong problem-solving skills
-- Learn Data Structures & Algorithms
-- Build AI & Machine Learning projects
-- Prepare for coding interviews
-- Create a professional GitHub portfolio
+- Build clean and readable code
+- Learn software development best practices
+- Prepare for technical interviews
+- Build AI & Machine Learning projects from scratch
 
 ---
 
@@ -29,177 +27,223 @@ My goal is to build a strong programming foundation for **Data Structures & Algo
 Python-Learning/
 │
 ├── Functions/
-│
 ├── Strings/
-│
 ├── Lists/
-│
 ├── Tuples/
-│
 ├── Sets/
-│
 ├── Dictionaries/
+├── File Handling/
+├── Exception Handling/
 │
-├── File Handling/        (Coming Soon)
-│
-├── Exception Handling/   (Coming Soon)
-│
-├── OOP/                  (Coming Soon)
-│
-├── Modules & Packages/   (Coming Soon)
-│
-├── Mini Projects/
-│
-└── README.md
+├── README.md
+└── .gitignore
 ```
 
 ---
 
-# ✅ Modules Completed
+# ✅ Completed Modules
 
-## 📌 Functions
-- User-defined functions
-- Parameters and arguments
+## 1️⃣ Functions
+
+Topics Covered:
+
+- Function definition
+- Parameters & Arguments
 - Return statements
 - Lambda functions
-- Scope
+- Variable scope
+- Recursive functions
 - Practice problems
 
 ---
 
-## 📌 Strings
-- String creation
-- Indexing
+## 2️⃣ Strings
+
+Topics Covered:
+
+- String indexing
 - Slicing
-- Built-in string methods
-- String manipulation
+- String methods
+- Searching
+- Counting
+- Replacing
+- Splitting
+- Formatting
 - Practice problems
 
 ---
 
-## 📌 Lists
-- List creation
-- Indexing & slicing
+## 3️⃣ Lists
+
+Topics Covered:
+
+- Creating lists
+- Indexing
+- Traversing
+- Updating
 - List methods
 - Searching
-- Updating
+- Sorting
+- Nested lists
 - Practice problems
 
 ---
 
-## 📌 Tuples
-- Immutable data structure
-- Tuple operations
-- Built-in methods
-- Tuple traversal
+## 4️⃣ Tuples
+
+Topics Covered:
+
+- Tuple creation
+- Indexing
+- Traversing
+- Immutability
+- Built-in functions
+- Tuple methods
 - Practice problems
 
 ---
 
-## 📌 Sets
-- Unique elements
-- Set operations
+## 5️⃣ Sets
+
+Topics Covered:
+
+- Set creation
+- Add & Remove operations
 - Set methods
-- Membership testing
+- Union
+- Intersection
+- Difference
+- Symmetric Difference
+- Subsets & Supersets
 - Practice problems
 
 ---
 
-## 📌 Dictionaries
-- Key-value pairs
+## 6️⃣ Dictionaries
+
+Topics Covered:
+
+- Creating dictionaries
+- Accessing values
+- Updating data
 - Dictionary methods
-- Dictionary traversal
-- Searching using keys
-- Merging dictionaries
+- Traversing dictionaries
+- Nested data
 - Word frequency counting
 - Practice problems
 
 ---
 
-# 🚀 Upcoming Topics
+## 7️⃣ File Handling
 
-- 📂 File Handling
-- ⚠️ Exception Handling
-- 🏛️ Object-Oriented Programming (OOP)
-- 📦 Modules & Packages
-- 🧩 Data Structures & Algorithms
-- 📊 NumPy
-- 🐼 Pandas
-- 🤖 Machine Learning
-- 🧠 Deep Learning
+Topics Covered:
+
+- Reading files
+- Writing files
+- Appending data
+- File modes
+- Processing file contents
+- Reading line by line
+- Text analysis
+- File copying
+- Practice problems
 
 ---
 
-# 🛠 Skills Practiced
+## 8️⃣ Exception Handling
 
+Topics Covered:
+
+- Runtime errors
+- try
+- except
+- else
+- finally
+- raise
+- Handling multiple exceptions
+- Menu-driven programs
+- Safe file handling
+
+---
+
+# 📚 Upcoming Modules
+
+- ⏳ Object-Oriented Programming (OOP)
+- ⏳ Modules & Packages
+- ⏳ Regular Expressions
+- ⏳ Iterators & Generators
+- ⏳ Decorators
+- ⏳ NumPy
+- ⏳ Pandas
+- ⏳ Matplotlib
+- ⏳ Machine Learning Basics
+
+---
+
+# 🛠 Skills Developed
+
+Throughout this repository I have practiced:
+
+- Python Programming
 - Problem Solving
-- Algorithmic Thinking
 - Debugging
-- Python Fundamentals
-- Functions
-- Strings
-- Lists
-- Tuples
-- Sets
-- Dictionaries
-- User Input
-- Loops
-- Conditional Statements
+- File Processing
+- Exception Handling
+- Data Structures
+- Algorithmic Thinking
+- Clean Code Practices
 - Git & GitHub
 
 ---
 
-# 🌍 Why This Repository?
-
-This repository helps me:
-
-- Track my daily progress
-- Practice writing clean Python code
-- Build consistency through regular coding
-- Strengthen programming fundamentals
-- Prepare for technical interviews
-- Create a portfolio showcasing my learning journey
-
----
-
-# 📈 Current Progress
+# 📈 Learning Progress
 
 ```text
 Python Fundamentals
 
-██████████████████░░░░░░░░░░░░░░░░░░ 35%
+█████████████████████████████████░░░░░░░░
 
-✅ Functions
-✅ Strings
-✅ Lists
-✅ Tuples
-✅ Sets
-✅ Dictionaries
-
-🔜 File Handling
-🔜 Exception Handling
-🔜 OOP
-🔜 Modules & Packages
-🔜 DSA
-🔜 NumPy
-🔜 Pandas
-🔜 Machine Learning
+Completed: 8 Modules
+Current: Object-Oriented Programming (Next)
+Progress: ~67%
 ```
 
 ---
 
-# 🎯 Long-Term Goal
+# 💻 Tools & Technologies
 
-My aim is to become an **AI/ML Engineer** by building strong programming fundamentals, mastering Data Structures & Algorithms, developing real-world AI projects, contributing to open source, and preparing for software engineering interviews.
+- Python 3
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
-# 👩‍💻 Author
+# 📌 Repository Highlights
+
+- Well-structured module-wise learning
+- Hands-on coding exercises
+- Problem-solving approach
+- Consistent GitHub commits
+- Detailed documentation
+- Beginner to intermediate Python concepts
+
+---
+
+# 👩‍💻 About Me
 
 **Harshita R**
 
 B.E. Artificial Intelligence & Machine Learning
 
-Passionate about Artificial Intelligence, Machine Learning, Software Development, and continuous learning.
+I'm passionate about Artificial Intelligence, Machine Learning, and Software Engineering. This repository is a record of my journey as I build strong programming fundamentals and prepare for internships, technical interviews, and real-world AI projects.
 
-Currently documenting my journey from Python beginner to AI Engineer—one commit at a time. 🚀
+---
+
+## ⭐ Current Status
+
+- ✅ Python Fundamentals (67% Complete)
+- 🔜 Object-Oriented Programming
+- 🔜 HackerRank & Data Structures
+- 🔜 AI & Machine Learning
+- 🎯 Goal: Become an AI/ML Engineer and build impactful AI applications
